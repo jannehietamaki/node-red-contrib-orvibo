@@ -1,5 +1,5 @@
 
-# Orvibo/HomeMate WebSocket server
+# Orvibo/HomeMate/A-OK WebSocket server
 
 A Node-RED compatible WebSocket server to control the Orvibo/HomeMate smart curtains (and maybe sockets as well, not tested).
 
@@ -8,6 +8,12 @@ This is based on Orvibo B25 Server by SandySound [http://github.com/sandysound/o
 For this to work, you need to forward ``homemate.orvibo.com`` TCP port 10001 to a computer running this server. In my Hass.io setup this can be easily done by using dnsmasq plugin.
 
 Node-RED flow can be found [here](orvibo.flow)
+
+## Security
+
+Security of these devices are very questionnable and I would recommend only running these only in a separate network and not allow them to connect to the internet. More about this [here](https://www.gearbrain.com/orvibo-smart-home-data-leak-2639044270.html).
+
+Encryption key can be extracted with [this](https://gist.github.com/Grayda/eb48093bcfb96bfeec9c58ea301f2668).
 
 ## Compatibility
 
