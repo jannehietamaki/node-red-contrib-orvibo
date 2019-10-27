@@ -15,6 +15,8 @@ Security of these devices are very questionnable and I would recommend only runn
 
 Encryption key can be extracted with [this](https://gist.github.com/Grayda/eb48093bcfb96bfeec9c58ea301f2668).
 
+Current key is included in the source, as it's already publicly available in various other places all around the internet.
+
 ## Compatibility
 
 Tested to work with A-OK AM68 Wifi enabled curtain motor.
