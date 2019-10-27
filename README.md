@@ -9,7 +9,7 @@ For this to work, you need to forward ``homemate.orvibo.com`` TCP port 10001 to 
 
 Node-RED flow can be found [here](orvibo.flow)
 
-[!nodered.png]
+![Node-red](nodered.png)
 
 ## License
 
