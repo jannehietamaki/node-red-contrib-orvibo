@@ -9,6 +9,10 @@ For this to work, you need to forward ``homemate.orvibo.com`` TCP port 10001 to 
 
 Node-RED flow can be found [here](orvibo.flow)
 
+## Compatibility
+
+Tested to work with A-OK AM68 Wifi enabled curtain motor.
+
 ![Node-red](nodered.png)
 
 ## License
