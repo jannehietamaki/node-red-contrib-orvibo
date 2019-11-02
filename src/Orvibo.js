@@ -213,7 +213,7 @@ Orvibo.prototype.sendOrder = function(uid, order, options) {
           value3: options.value3,
           value4: options.value4,
       });
-      console.log('send!', socketId, data);
+      logger.log('send!', socketId, data);
       setData(socket.id, data);
 
       let packet = PacketBuilder.updatePacket(data);

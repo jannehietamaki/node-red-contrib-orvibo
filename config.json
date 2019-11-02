@@ -1,0 +1,16 @@
+{
+  "name": "node-red-contrib-orvibo",
+  "version": "1",
+  "slug": "node-red-contrib-orvibo",
+  "description": "Orvibo/HomeMate/A-OK WebSocket server",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "host_network": true,
+  "ports": {
+    "10001/tcp": 10001,
+    "8080/tcp": 8080
+  }
+}
